@@ -9,3 +9,10 @@ export type MovieProps = {
   Poster?: string
   imdbID?: string
 }
+
+export type IconProps = {
+  width: number
+  height: number
+  fill?: string
+  className?: string
+}
